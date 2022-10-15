@@ -1,0 +1,15 @@
+package recapDemo1;
+
+public class sesliHarfler {
+
+	public static void main(String[] args) {
+		char harf='A';
+		char kalin='A';
+		char kalin='I';
+		if(kalin==harf) {
+			System.out.println("kalın harf");
+		}
+
+	}
+
+}

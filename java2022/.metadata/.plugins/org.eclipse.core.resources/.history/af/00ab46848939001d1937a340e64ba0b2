@@ -1,0 +1,31 @@
+package recapDemo1;
+
+public class stringsDemo {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel.";
+		System.out.println(mesaj);
+
+		System.out.println("eleman sayısı:" + mesaj.length());// mesaj daki tüm karakterleri say ve yazıdr.
+		System.out.println("5.eleman:" + mesaj.charAt(4));// mesaj daki 5.elemanı yazdır.1. eleman 0 oldugu için
+															// 5.eleman 4. eleman olarak sayılır.
+		System.out.println(mesaj.concat("yaşasın!"));//mesaj birleştirme concata yazılan herşey mesaj sonuna eklenecek birleşririlecek.
+        System.out.println(mesaj.startsWith("A"));//başlangıç harfi A ile başlıyor mu ?başlangıc harfi sorgulama .eğer A ile başlıyorsa true 
+                                                  //A ilebaşlamıyorsa false yazdıracak
+        System.out.println(mesaj.endsWith("."));//bitiş harfi nokta mı(.) mi ? bitiş harfi sorgulama.eğer (.) ile bitiyorsa true 
+                                                  //(.) ile bitmiyorsa false yazdıracak
+       
+        char[] karakterler=new char[5];//5.elemanı istediğimiz için char  yazıldı.
+        mesaj.getChars( 0, 5, karakterler, 0 );//getchars karakterleri yazdırma 0 ıncı elemadan 5 inci elemanı  karakterlere ata yani
+                                               //0 dan 5 e kadar olan karakterleri yazdır
+         //Sondaki  ise kaçıncı harften karakterleri aktarmaya başlayayım demek. yazdığımız için baştan başlayacak.
+        System.out.println(karakterler);
+        
+        System.out.println(mesaj.indexOf("çok"));//Belittiğimkarakterin mesajın içinde kacıncı eleman oldugunu bulmaya yarar
+                                               //Bir çok a harfi olsa bile ilk a yı yazar programı bitirir.
+        System.out.println(mesaj.lastIndexOf('e'));//Aramaya sondan başlar.Sondan başlayıp eharfini görünce programı bitirecek.
+                                                   //Eleman sayısındaki 18 inciharf e oldugu için 18 yazıp bitirecek
+        
+	}
+
+}

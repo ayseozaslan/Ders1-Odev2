@@ -1,0 +1,24 @@
+package variables;
+
+public class variables {
+
+	public static void main(String[] args) {
+		//case sensitive=Büyük küçük harf duyarlılığı
+		//Değişiklik yapmak istendiği zaman örneğin "öğrenci sayım" yerine 
+		//öğrenci sayısı yazmakstendiği zaman 
+		int ogrenciSayisi=12;
+		String mesaj="Öğrenci Sayısı= ";//tekrar tekrar yazmak yerine tek seferde mesaj kısmını yazmak yeterli 
+		System.out.println(mesaj+ ogrenciSayisi);
+		System.out.println(mesaj  + ogrenciSayisi);
+		System.out.println(mesaj  + ogrenciSayisi);
+		System.out.println("Öğrenci Sayım: " + ogrenciSayisi);
+		System.out.println("Öğrenci Sayım: " + ogrenciSayisi);
+		System.out.println("Öğrenci Sayım: " + ogrenciSayisi);
+		System.out.println("Öğrenci Sayım: " + ogrenciSayisi);
+		
+		//Aynı sayıyı tekrar tekrar güncelleyip değiştirmekyerine int değer
+		//atayıp tek seferde değer değiştirilebilir.
+	
+	}
+
+}

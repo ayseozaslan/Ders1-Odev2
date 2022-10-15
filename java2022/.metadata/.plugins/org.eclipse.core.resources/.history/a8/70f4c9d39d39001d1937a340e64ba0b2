@@ -1,0 +1,27 @@
+package recapDemo1;
+
+public class miniProjeAsalSayi {
+
+	public static void main(String[] args) {
+		int number=25;
+		int remainder=number%2;//kalanı bulma sayının 2 ye bölümünden kalan 
+		System.out.println(remainder);
+   //ASAL SAYI=1 ve kendisinden başka böleni olmayan sayılar
+		boolean isPrime=true;
+		for(int i=2; i<number; i++) {//2 den 24 e kadar döngü kurdum.24 e kadar tüm sayıları teker teker 25 e bölecek
+			                         //
+			if(number%2==0) {
+				isPrime=false;
+				
+			}
+		}
+            if(isPrime) {
+            	System.out.println("sayı asaldır");
+            }
+            else {
+            	System.out.println("sayı asal değildir");
+            }
+		}
+	}
+
+

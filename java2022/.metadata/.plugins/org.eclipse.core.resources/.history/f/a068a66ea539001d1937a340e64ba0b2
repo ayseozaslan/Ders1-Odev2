@@ -1,0 +1,28 @@
+package recapDemo1;
+
+public class mukemmelSayi {
+
+	public static void main(String[] args) {
+		/*MÜKEMMEL SAYI
+		 * Kendisi hariç bütün pozitif bölenlerinin toplamı kendisine eşit olan sayılara mükemmel sayı denir.
+		 *  6 bir mükemmel sayıdır. Çünkü 6'nın pozitif bölenleri 1,2,3 ve 6'dır.
+		 *   Kendisi hariç diğer bölenlerini toplarsak 1+2+3=6 eder. Bunun gibi 28 de mükemmel sayıdır.
+       
+         */
+         int number=5;
+         int total=0;//toplamı tutacak sayı
+         for(int i=0; i<number; i++) {
+        	 if(number%i==0) {
+        		 total=total+i;
+        	 }
+        	
+         }
+         if(total==number) {
+     		System.out.println("Mükemmel sayılar");
+     		
+     	}else {
+     		System.out.println("Mükemmel sayı değildir");
+     	}
+	}   
+
+}

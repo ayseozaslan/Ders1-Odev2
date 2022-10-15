@@ -1,0 +1,11 @@
+package variables;
+
+public class variables {
+
+	public static void main(String[] args) {
+		//case sensitive=Büyük küçük harf duyarlılığı
+		System.out.println("Öğrenci Sayım:9");
+
+	}
+
+}

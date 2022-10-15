@@ -1,0 +1,17 @@
+package variables;
+
+public class variables {
+
+	public static void main(String[] args) {
+		//case sensitive=Büyük küçük harf duyarlılığı
+		int ogrenciSayisi=11;
+		System.out.println("Öğrenci Sayım: " + ogrenciSayisi);
+		System.out.println("Öğrenci Sayım:10");
+		System.out.println("Öğrenci Sayım:10");
+		System.out.println("Öğrenci Sayım:10");
+		//Aynı sayıyı tekrar tekrar güncelleyip değiştirmekyerine int değer
+		//atayıp tek seferde değer değiştirilebilir.
+	
+	}
+
+}

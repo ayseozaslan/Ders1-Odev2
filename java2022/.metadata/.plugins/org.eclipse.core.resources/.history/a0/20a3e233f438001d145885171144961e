@@ -1,0 +1,12 @@
+package recapDemo1;
+
+public class MultiDimensionalArrayDemo {
+
+	public static void main(String[] args) {
+		String[][] sehirler =new String[3][3];//Şehirler string olduğu için string yazıyoruz.
+		//Daha sonra satır ve sütün oluşan bir sehir ve bölgeleri yazacagım için [] [] yazdım.
+		//Biri satır biri sütuna it köşeli parantexlerin. 3 adet Şehirler 3 adet bölgeler yazacagım için [3] [3] yazıldı.
+
+	}
+
+}

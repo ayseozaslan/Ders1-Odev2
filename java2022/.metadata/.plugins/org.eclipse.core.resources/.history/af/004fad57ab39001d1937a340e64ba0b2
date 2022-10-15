@@ -1,0 +1,22 @@
+package loopDemo;
+
+public class sayiBulma {
+
+	public static void main(String[] args) {
+		int[] sayilar = new int[] { 1, 2, 5, 7, 9, 0 };
+		int aranacak =12;
+        boolean varMi=false;//var yok durumu oldugu için true false kullanıyoruz
+        for(int sayi:sayilar) {//sayıları dolaşmak için for döngüsü.Sayı yı sayilarda ara
+        	if(sayi==aranacak) {//o an ki sayı aranacaklarda eşit ise
+        		varMi=true;//sayı var deyip döngüyü bitir
+        		break;
+        		
+        	}
+        }
+        if(varMi) {
+        	System.out.println("sayı mevcuttur");//eger sayı varsa çalışacak kod bloğu
+        }else {
+        	System.out.println("sayı mevcut değil");
+        }
+	}
+}

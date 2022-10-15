@@ -1,0 +1,15 @@
+package loopDemo;
+
+public class arkadasSayilar {
+
+	public static void main(String[] args) {
+		/* ARKADAŞ SAYILAR
+		 * İki sayı birbirinin kendisi hariç pozitif bölenleri toplamına eşitse bu sayılara  denir.
+       	 * En küçük arkadaş sayı çifti 200 ve 284’tür
+		 *  220’nin kendisi hariç pozitif bölenlerinin toplamı : 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
+         284’ün kendisi hariç pozitif bölenlerinin toplamı : 1 + 2 + 4 + 71 + 142 = 220  
+         */
+
+	}
+
+}
